@@ -17,7 +17,12 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CMFDev.Toolkit.Configuratio
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Extensions", "Extensions", "{700A75A7-AF60-4BA9-9822-95235C54B0CD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CMFDec.Toolkit.Extensions.AutoMapper", "Extensions\CMFDec.Toolkit.Extensions.AutoMapper\CMFDec.Toolkit.Extensions.AutoMapper.csproj", "{F2DE6C88-B036-4339-A02D-E280AB150DC4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CMFDec.Toolkit.Extensions.AutoMapper", "Extensions\CMFDec.Toolkit.Extensions.AutoMapper\CMFDec.Toolkit.Extensions.AutoMapper.csproj", "{F2DE6C88-B036-4339-A02D-E280AB150DC4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{3BC3FA89-1670-4EB0-B61C-354E4A6DA676}"
+	ProjectSection(SolutionItems) = preProject
+		Solution Items\Logo.png = Solution Items\Logo.png
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

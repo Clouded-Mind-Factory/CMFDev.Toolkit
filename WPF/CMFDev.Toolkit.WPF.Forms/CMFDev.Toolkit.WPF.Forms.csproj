@@ -7,7 +7,26 @@
 	  <UseWPF>true</UseWPF>
 	  <Authors>Tobias Michel</Authors>
 	  <Company>Clouded Mind Factory</Company>
+	  <FileVersion>0.0.1</FileVersion>
+	  <AssemblyVersion>0.0.1</AssemblyVersion>
+	  <Version>0.0.1-alpha</Version>
+	  <PackageOutputPath>$(SolutionDir)/output/Packages/</PackageOutputPath>
+	  <GeneratePackageOnBuild Condition="$(Configuration) == 'Release'">True</GeneratePackageOnBuild>
+	  <PackageLicenseExpression>MIT</PackageLicenseExpression>
+	  <PackageRequireLicenseAcceptance>False</PackageRequireLicenseAcceptance>
+	  <NeutralLanguage>en</NeutralLanguage>
+	  <PackageTags>CMF; c#; WPF; Forms;</PackageTags>
+	  <RepositoryType></RepositoryType>
+	  <RepositoryUrl>https://github.com/Clouded-Mind-Factory/CMFDev.Toolkit</RepositoryUrl>
+	  <PackageIcon>Logo.png</PackageIcon>
   </PropertyGroup>
+
+	<ItemGroup>
+		<None Include="..\..\Solution Items\Logo.png">
+			<Pack>True</Pack>
+			<PackagePath>\</PackagePath>
+		</None>
+	</ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\..\Data\CMFDev.Toolkit.Data.Forms\CMFDev.Toolkit.Data.Forms.csproj" />

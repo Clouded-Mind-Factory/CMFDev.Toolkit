@@ -6,7 +6,26 @@
 		<Nullable>enable</Nullable>
 		<Authors>Tobias Michel</Authors>
 		<Company>Clouded Mind Factory</Company>
+		<FileVersion>0.0.1</FileVersion>
+		<AssemblyVersion>0.0.1</AssemblyVersion>
+		<Version>0.0.1-alpha</Version>
+		<GeneratePackageOnBuild Condition="$(Configuration) == 'Release'">True</GeneratePackageOnBuild>
+		<PackageOutputPath>$(SolutionDir)/output/Packages/</PackageOutputPath>
+		<PackageLicenseExpression>MIT</PackageLicenseExpression>
+		<PackageRequireLicenseAcceptance>False</PackageRequireLicenseAcceptance>
+		<NeutralLanguage>en</NeutralLanguage>
+		<PackageTags>CMF; c#; Configuration;</PackageTags>
+		<RepositoryType></RepositoryType>
+		<RepositoryUrl>https://github.com/Clouded-Mind-Factory/CMFDev.Toolkit</RepositoryUrl>
+		<PackageIcon>Logo.png</PackageIcon>
 	</PropertyGroup>
+
+	<ItemGroup>
+		<None Include="..\..\Solution Items\Logo.png">
+			<Pack>True</Pack>
+			<PackagePath>\</PackagePath>
+		</None>
+	</ItemGroup>
 
 	<ItemGroup>
 		<PackageReference Include="Microsoft.Extensions.Configuration" Version="6.0.1" />
