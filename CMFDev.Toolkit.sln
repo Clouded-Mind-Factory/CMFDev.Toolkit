@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32328.378
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data", "Data", "{66B28059-4C45-40A7-9232-7E3949307D86}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CMFDev.Toolkit.Data.Forms", "Data\CMFDev.Toolkit.Data.Forms\CMFDev.Toolkit.Data.Forms.csproj", "{935FD37E-EDFB-49EE-B9AE-0C27B6649CEC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WPF", "WPF", "{030A802D-0173-4039-88B8-92246904D764}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CMFDev.Toolkit.WPF.Forms", "WPF\CMFDev.Toolkit.WPF.Forms\CMFDev.Toolkit.WPF.Forms.csproj", "{ABAFD877-515C-4960-86C3-C16E48F97C8E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Configuration", "Configuration", "{4A71AA6D-0ECD-451C-B632-31AA94BF66C9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CMFDev.Toolkit.Configuration", "Configuration\CMFDev.Toolkit.Configuration\CMFDev.Toolkit.Configuration.csproj", "{7F3831EF-9A01-4896-B4B7-04DAA0816EB1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Extensions", "Extensions", "{700A75A7-AF60-4BA9-9822-95235C54B0CD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CMFDec.Toolkit.Extensions.AutoMapper", "Extensions\CMFDec.Toolkit.Extensions.AutoMapper\CMFDec.Toolkit.Extensions.AutoMapper.csproj", "{F2DE6C88-B036-4339-A02D-E280AB150DC4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{935FD37E-EDFB-49EE-B9AE-0C27B6649CEC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{935FD37E-EDFB-49EE-B9AE-0C27B6649CEC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{935FD37E-EDFB-49EE-B9AE-0C27B6649CEC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{935FD37E-EDFB-49EE-B9AE-0C27B6649CEC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ABAFD877-515C-4960-86C3-C16E48F97C8E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ABAFD877-515C-4960-86C3-C16E48F97C8E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ABAFD877-515C-4960-86C3-C16E48F97C8E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ABAFD877-515C-4960-86C3-C16E48F97C8E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7F3831EF-9A01-4896-B4B7-04DAA0816EB1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F3831EF-9A01-4896-B4B7-04DAA0816EB1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F3831EF-9A01-4896-B4B7-04DAA0816EB1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F3831EF-9A01-4896-B4B7-04DAA0816EB1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F2DE6C88-B036-4339-A02D-E280AB150DC4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2DE6C88-B036-4339-A02D-E280AB150DC4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2DE6C88-B036-4339-A02D-E280AB150DC4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2DE6C88-B036-4339-A02D-E280AB150DC4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{935FD37E-EDFB-49EE-B9AE-0C27B6649CEC} = {66B28059-4C45-40A7-9232-7E3949307D86}
+		{ABAFD877-515C-4960-86C3-C16E48F97C8E} = {030A802D-0173-4039-88B8-92246904D764}
+		{7F3831EF-9A01-4896-B4B7-04DAA0816EB1} = {4A71AA6D-0ECD-451C-B632-31AA94BF66C9}
+		{F2DE6C88-B036-4339-A02D-E280AB150DC4} = {700A75A7-AF60-4BA9-9822-95235C54B0CD}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EF19406F-A2D6-4981-AC72-1493A212E7F1}
+	EndGlobalSection
+EndGlobal
