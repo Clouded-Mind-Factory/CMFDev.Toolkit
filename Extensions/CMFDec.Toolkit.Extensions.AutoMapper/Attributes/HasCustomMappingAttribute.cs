@@ -8,7 +8,7 @@ namespace CMFDec.Toolkit.AutoMapper.Attributes
 {
     /// <summary>
     /// Signals that a class has one or more AutoMapper mappings configured.
-    /// THe class using this attributes must define a public static Method called "CreateMap" with with a single \"AutoMapper.Profile\" parameter.
+    /// The class using this attributes must define a public static Method called "CreateMap" with with a single \"AutoMapper.Profile\" parameter.
     /// 
     /// Usage Info:
     /// 
